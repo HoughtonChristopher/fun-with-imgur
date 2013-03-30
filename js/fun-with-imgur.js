@@ -1,4 +1,4 @@
-jQuery(document).ready(function (#) {
+jQuery(document).ready(function ($) {
   function get_permutation() {
     var characters = $("#word").val().toLowerCase().split("");
     var max = Math.pow(2, characters.length);
