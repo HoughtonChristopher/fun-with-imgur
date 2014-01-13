@@ -32,6 +32,10 @@
 <a name="fun-with-imgur" class="anchor" href="#fun-with-imgur"><span class="octicon octicon-link"></span></a>Fun with Imgur</h1>
 
 <p>This little script checks all possible Imgur URL combinations for a given string, and shows them on the web page. It's kinda fun ¯\_(ツ)_/¯</p>
+    <input id="word" maxlength=5 type="text" placeholder="Try it!">
+    <input id="submit" type="button" value="submit"><br>
+    <ul id="result"></ul>
+    <style>.imgur_result {padding:5px;}</style>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/AlphaH">AlphaH</a></p>
@@ -39,6 +43,7 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="javascripts/fun-with-imgur.js"></script>
   </body>
 </html>
